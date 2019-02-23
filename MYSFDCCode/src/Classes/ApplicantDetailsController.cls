@@ -16,5 +16,10 @@ public class ApplicantDetailsController {
         }}
         return lcr.ContactId__c; 
     }  
+	
+	public static String getval() {
+	
+	return "Test";
+	}
 
 }
